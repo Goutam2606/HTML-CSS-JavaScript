@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arvo&family=Dancing+Script&family=Kaushan+Script&family=Montserrat:ital,wght@0,900;1,400&family=Niconne&display=swap');
+
+* {
+                    padding: 0px;
+                    margin: 0px;
+}
+
+body .container {
+                    background-color: orange;
+                    color: white;
+                    height: 2500px;
+}
+
+
+.nav-bar {
+                    background-color: rgba(255, 205, 205, 0.1);
+                    /* border: 2px solid black; */
+                    display: flex;
+                    font-family: 'Arvo', serif;
+                    font-family: 'Saira Condensed', sans-serif;
+                    font-weight: bolder;
+                    font-size: 18px;
+                    position: fixed;
+                    width: 100%;
+                    z-index: 1;
+                    border-radius: 0px 0px 150px 150px;
+                    box-shadow: 2px 2px 10px lightblue;
+}
+
+.logo {
+                    margin: 10px 10px 10px 100px;
+                    width: 160px;
+                    height: 53px;
+                    /* background-color: black; */
+}
+
+.nav-elm {
+                    position: absolute;
+                    right: 27%;
+                    margin: 5px 10px 10px 20px;
+}
+
+ul li {
+                    list-style-type: none;
+                    display: inline-block;
+                    padding: 17px 10px 0px 10px;
+
+}
+
+a {
+                    text-decoration: none;
+                    color: orange;
+                    padding: 10px 20px 10px 20px;
+                    transition: 200ms;
+}
+
+a:hover {
+                    background-color: rgba(255, 166, 0, 0.152);
+                    border-bottom: 5px solid orange;
+                    border-radius: 7px;
+}
+
+/* .bg-img {
+                    position: fixed;
+} */
+
+/* filter: blur(2px);
+}
+
+
+/*home*/
+#home {
+                    width: 97%;
+                    height: 700px;
+                    /* border: 2px solid black; */
+                    top: 10%;
+                    margin: 20px;
+                    position: absolute;
+                    color: black;
+                    z-index: 1;
+                    background-color: rgb(0, 191, 255);
+                    /* opacity: 0.3; */
+                    border-radius: 100px;
+                    box-shadow: 5px 5px 10px black;
+                    display: flex;
+}
+
+.home-text>h1 {
+                    text-align: center;
+                    padding-top: 50px;
+                    font-size: 100px;
+                    color: orange;
+                    width: 500px;
+                    text-shadow: 2px 2px 10px black;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@672&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.sidebar{
+   background-color: gray;
+   width: 20vw;
+   font-family: 'Croissant One', cursive;
+   height: 100vh ;
+}
+.sidebar nav{
+   padding: 45px;
+}
+.sidebar nav li{
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.main{
+   /* background-color: yellow; */
+   width: 90vw;
+}
+.container{
+   display: flex;
+
+}
+.infoContainer{
+   /* background-color:rgb(156, 156, 186) ; */
+   height: 50vh;
+   width: 80vw;
+   margin: 147px auto;
+   display: flex;
+   justify-content: space-around;
+}
+.devInfo{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family: 'Dancing Script', cursive;
+}
+.hello{
+ font-size: 85px;
+}.name{
+ font-size: 70px;
+ font-weight: bold;
+}.about{
+font-size:30px ;
+}.goal{
+font-size: 30px;
+}.hobbies{
+font-size: 30px;
+}
+.buttons button{
+
+}
+.devPic img{
+   height: 60vh;
+}

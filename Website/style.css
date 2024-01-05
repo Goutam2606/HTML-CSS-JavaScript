@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+.logo {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin-left: 10%;
+  background-color: black;
+}
+
+.nav {
+  width: 400px;
+  margin: 20px;
+  /* height: 50px; */
+  /* background-color: azure; */
+  position: absolute;
+  left: 40%;
+  right: 40%;
+}
+
+.contact {
+  /* width: 100px; */
+  /* background-color: lightblue; */
+  position: absolute;
+  right: 10%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.fa-angles-right {
+  padding: 12px;
+  border: 2px solid skyblue;
+  border-radius: 14px;
+  background-color: black;
+}
+
+#talk {
+  /* background-color: black; */
+  color: aliceblue;
+  padding: 7px 0px 7px 7px;
+  border: 2px solid purple;
+  padding: 10px;
+  border-radius: 20px 5px 5px 20px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+#active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.headline{
+  background-color: #121212;
+  color: white;
+  height: 85px;
+}
+.headline > a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family:'Lucida Sans';
+  margin: 15%;
+  justify-content: center;
+  /* padding: 20px; */
+  font-weight: bold;
+  padding-top: 20%;
+}
+.download{
+  background-color: rgb(0, 189, 133);
+  height: 600px;
+}
+.download >h1, p ,a{
+  margin-left:35% ;
+  /* font-size: 45px; */
+  /* padding: 10%; */
+  /* font-weight: bold; */
+  
+}
+.download > h1{
+  font-size: 45px;
+  padding-top: 15%;
+  font-weight: bold;
+} .download >p{
+  font-size: 15px;
+  padding-top: 40px;
+  padding-left: 15px;
+  
+}.download >.link{
+  font-size: 15px;
+  padding-top: 100px;
+  padding-left: 50px;
+ 
+}

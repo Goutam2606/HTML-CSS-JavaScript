@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(88, 88, 88);
+}
+#check{
+  display: none;
+}
+.mainbar{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+.topbar, .page a{
+ text-decoration: none;
+ color: black;
+ padding: 20px;
+}
+ .logo{
+  position: absolute;
+}
+.page{
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  width: 750px;
+  height: 40px;
+  background-color: aqua;
+}

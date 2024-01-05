@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+}
+.logo{
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.input{
+ 
+  margin-top: 20px;
+}
+input{
+  font-family:  Calibri, 'Trebuchet MS' ;
+  font-size: 11px;
+  width: 230px;
+  height: 30px;
+  padding: 3px;
+  margin: 3px;
+  margin-left: 35px;
+  background-color: rgba(240, 248, 255, 0.432);
+  border: 0.5px solid rgb(230, 230, 230);
+  
+}
+#btn{
+  border-radius: 10px;
+  background-color: #405ce6;
+  color: white;
+  width: 240px;
+  height: 30px;
+  padding: 2px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.login-box{
+  border: 1.2px solid rgb(232, 219, 219);
+  width: 310px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 550px;
+ 
+}
+hr{
+  margin-top: 30px;
+  width: 230px;
+  margin-left: 35px;
+  color: aliceblue;
+}
+.link2{
+  color: rgb(1, 1, 19);
+}
+.link1 ,.link2{
+  text-align: center;
+  margin-top: 15px;
+ 
+}
+a{
+  text-decoration:  none;
+  font-size: 10px;
+  color: rgba(4, 4, 97, 0.789);
+  
+}
+/* #forgot-pass{
+ color: rgb(29, 29, 29);
+ font-family: serif;
+} */
+.sign-up{
+  width: 310px;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 550px;
+  border: 1.2px solid rgb(232, 219, 219);
+  font-size: small;
+  font-family: Georgia;
+}
+.sign-up >p{
+  padding-top: 15px;
+  color:rgb(73, 72, 72);
+}

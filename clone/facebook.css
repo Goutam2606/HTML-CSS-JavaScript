@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Great+Vibes&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.body{
+  background-color: rgb(145, 181, 213);
+  height: 680px;
+}
+h1{
+  color:blue;
+  font-family:  serif;
+  font-size: 55px;
+  position: absolute;
+  padding-left: 20%;
+  padding-top: 6%;
+}p{
+  font-size: 20px;
+  position: absolute;
+  padding-left: 20%;
+  padding-top: 10%;
+}
+.fb-text{
+  /* text-align: center; */ 
+  margin-top: 5%;
+}
+input:hover{
+  border: 0.5px solid #75757b;
+  box-shadow: 1.5px 1.5px 2px #405DE6;
+}
+ /* .form{
+  padding-top: 10%;
+} */
+
+.form-box{
+  margin-left: 55%;
+  margin-top: 10%;
+  width: 350px;
+  height: 320px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #75757b;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 7px;
+}
+input{
+ padding: 3px;
+ padding-left: 15px;
+ border: 0.5px solid rgb(178, 172, 172);
+}input, button {
+  font-family: 'Lucida Sans Regular',  'Lucida Sans Unicode', Geneva, Verdana;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.btn > button {
+  background-color: #405DE6;
+  color: white;
+  width: 320px;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+.btn{
+  height: 50px;
+}
+a{
+  padding-top: 25px;
+  color: #405DE6;
+  text-decoration: none;
+}.forgot{
+  padding-top: 10px;
+}
+hr{
+  width: 320px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.new-account{
+  margin-top: 30px;
+  width: 200px;
+  margin-left: 10px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(39, 232, 0);
+}
+/* .form{ */
+  /* margin: auto;
+  margin-top:25%;
+} */
